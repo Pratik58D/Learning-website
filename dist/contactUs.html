@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interative learning</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-slate-100 font-[Poppins]">
+    <div class="text-red-800 relative">
+      <!-- navbar started -->
+      <nav class="bg-white px-5 shadow md:flex z-40 fixed top-0 w-screen">
+        <div class="flex justify-between items-center w-full p-6">
+          <a href="index.html">
+            <img src="../images/main-logo.png" alt="" class="w-20" />
+          </a>
+          <button class="menu-button md:hidden">
+            <i class="ri-menu-fold-fill text-2xl"></i>
+          </button>
+        </div>
+
+        <ul
+          class="hidden md:flex md:flex-row md:items-center flex-col p-3 gap-4 duration-500 menu-list"
+        >
+          <!-- drop Down of Courses -->
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./LearnHtml.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                Html
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./LearnHtml.html" class="hover:text-black">Tutorial</a>
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./components/quiz.html" class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./css.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                CSS
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./css.html" class="hover:text-black">Tutorial</a>
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./components/quiz.html" class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./javascript.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                JavaScript
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./javascript.html" class="hover:text-black"
+                  >Tutorial</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/quiz.html"
+                  class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./Taiwind.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                TaiwindCSS
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./Taiwind.html" class="hover:text-black">Tutorial</a>
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/quiz.html"
+                  class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- dropdown finished -->
+
+          <li class="w-36">
+            <a
+              href="./contactUs.html"
+              class="text-xl ml-3 hover:text-black font-bold uppercase"
+              >Contact Us</a
+            >
+          </li>
+
+          <button class="bg-red-700 text-white px-4 py-2 rounded-lg w-32">
+            Try For Free
+          </button>
+        </ul>
+      </nav>
+
+      <!-- contact us form -->
+
+      <section class="bg-white dark:bg-gray-900 pt-20 lg:pt-6 px-4 mx-auto">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2
+            class="pt-4 mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
+          >
+            Contact Us
+          </h2>
+          <form action="#" class="space-y-8">
+            <div>
+              <label
+                for="email"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder="pratikdevkota@gmail.com"
+                required
+              />
+            </div>
+            <div>
+              <label
+                for="subject"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >Subject</label
+              >
+              <input
+                type="text"
+                id="subject"
+                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder="Let us know how we can help you"
+                required
+              />
+            </div>
+            <div class="sm:col-span-2">
+              <label
+                for="message"
+                class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                >Your message</label
+              >
+              <textarea
+                id="message"
+                rows="6"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                placeholder="Leave a comment..."
+              ></textarea>
+            </div>
+            <button
+            class="bg-red-700 text-white px-4 py-2 rounded-lg w-auto h-14 hover:text-black
+              type="submit"
+            
+            >
+              Send message
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

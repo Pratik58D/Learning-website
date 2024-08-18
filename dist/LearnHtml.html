@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Learning</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="../images/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-[Poppins]">
+    <div class="text-red-800 h-screen relative">
+      <!-- navbar started -->
+      <nav class="bg-white px-5 shadow md:flex z-40 fixed top-0 w-screen">
+        <div class="flex justify-between items-center w-full p-6">
+          <a href="index.html">
+            <img src="../images/main-logo.png" alt="" class="w-20" />
+          </a>
+          <button class="menu-button md:hidden">
+            <i class="ri-menu-fold-fill text-2xl"></i>
+          </button>
+        </div>
+
+        <ul
+          class="hidden md:flex md:flex-row md:items-center flex-col p-3 gap-4 duration-500 menu-list"
+        >
+          <!-- drop Down of Courses -->
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./LearnHtml.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                Html
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./LearnHtml.html" class="hover:text-black">Tutorial</a>
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./components/quiz.html" class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./css.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                CSS
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./css.html" class="hover:text-black">Tutorial</a>
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./components/quiz.html" class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./javascript.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                JavaScript
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./javascript.html" class="hover:text-black"
+                  >Tutorial</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/quiz.html"
+                  class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 realtive">
+            <li
+              class="mx-4 flex gap-3 items-center cursor-pointer dropdown-toggle"
+            >
+              <a
+                href="./Taiwind.html"
+                class="text-xl hover:text-black duration-500 font-bold uppercase"
+              >
+                TaiwindCSS
+              </a>
+              <i class="ri-arrow-down-s-line text-2xl"></i>
+            </li>
+            <ul
+              class="absolute hidden mt-10 flex-col gap-2 bg-white shadow-lg rounded-md dropdown-menu"
+            >
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a href="./Taiwind.html" class="hover:text-black">Tutorial</a>
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/quiz.html"
+                  class="hover:text-black"
+                  >Quiz</a
+                >
+              </li>
+              <li class="hover:bg-gray-500 w-full pl-2">
+                <a
+                  href="./components/CodingChallenges.html"
+                  class="hover:text-black"
+                  >Coding Challenges</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- dropdown finished -->
+
+          <li class="w-36">
+            <a
+              href="./contactUs.html"
+              class="text-xl ml-3 hover:text-black font-bold uppercase"
+              >Contact Us</a
+            >
+          </li>
+
+          <button class="bg-red-700 text-white px-4 py-2 rounded-lg w-32">
+            Try For Free
+          </button>
+        </ul>
+      </nav>
+
+      <!-- Hero section -->
+      <div class="flex h-screen pt-20 text-black">
+        <!-- Sidebar section -->
+        <div
+          class="w-32 md:w-72 fixed left-0 top-20 h-full overflow-y-auto bg-gray-100"
+        >
+          <ul
+            class="flex flex-col gap-1 w-full font-semibold justify-start pt-10 text-left"
+          >
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#introduction">Introduction</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Tags">Html Tags</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Attributes">Html Attributes</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Elements">Html Elements</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Heading">Html Heading</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Paragraphs">Html Paragraphs</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#styles">Html styles</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Images">Html Images</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Tables">Html Tables</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#List">Html List</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#selectors">Html selectors</a>
+            </li>
+            <li class="hover:text-black hover:bg-gray-500 w-full pl-10 py-1">
+              <a href="#Forms">Html Forms</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Tutorial section -->
+        <div
+          class="flex flex-col gap-14 w-[70%] ml-72 pt-20 pl-8 h-[calc(100vh-80px)] overflow-y-auto"
+        >
+          <div id="introduction" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Introduction
+            </h1>
+            <p class="text-justify">
+              HTML tutorial or HTML 5 tutorial provides basic and advanced
+              concepts of HTML. Our HTML tutorial is developed for beginners and
+              professionals. In our tutorial, every topic is given step-by-step
+              so that you can learn it in a very easy way. If you are new in
+              learning HTML, then you can learn HTML from basic to a
+              professional level and after learning HTML with CSS and JavaScript
+              you will be able to create your own interactive and dynamic
+              website. But now we will focus on HTML only in this tutorial.
+            </p>
+            <p class="py-5">The major points of HTML are given below:</p>
+            <ul class="list-decimal pl-10 font-medium">
+              <li>HTML stands for HyperText Markup Language.</li>
+              <li>HTML is used to create web pages and web applications.</li>
+              <li>HTML is widely used language on the web.</li>
+              <li>We can create a static website by HTML only.</li>
+              <li>
+                Technically, HTML is a Markup language rather than a programming
+                language.
+              </li>
+            </ul>
+          </div>
+          <div id="Tags" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Tags
+            </h1>
+            <p class="text-justify">
+              HTML (HyperText Markup Language) is the standard markup language
+              for creating web pages and web applications. It uses tags to
+              define the structure and content of a page.
+            </p>
+            <h4 class="text-center font-bold ">HTML Meta Tags </h4>
+              <p class=" flex flex-col shadow-md bg-gray-100 text-center"> >DOCTYPE, title, link, meta and style</p>
+            <div class=" flex flex-col shadow-md bg-gray-100 text-center">
+             <p> &lt;p&gt;
+              &lt;/p&gt; 
+            </p>
+            </div>
+               
+          </div>
+          <div id="Attributes" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Attributes
+            </h1>
+            <p class="text-justify">HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.
+              Each element or tag can have attributes, which defines the behaviour of that element.</p>
+              <div class=" flex flex-col shadow-md bg-gray-100 text-center">
+                <p>
+                  &lt;element attribute_name="value"&gt;content&lt;/element&gt; 
+               </p>
+               <p>  &lt;p style="height: 50px; color: blue"&gt;It will add style property in element&lt;/p&gt;</p>
+               </div>
+          </div>
+          <div id="Elements" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Elements
+            </h1>
+            <p class="text-justify">Content for HTML elements goes here.</p>
+          </div>
+          <div id="Heading" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Heading
+            </h1>
+            <p class="text-justify">Content for HTML heading goes here.</p>
+          </div>
+          <div id="Tables" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Tables
+            </h1>
+            <p class="text-justify">Content for HTML tables goes here.</p>
+          </div>
+          <div id="Forms" class="pl-5 pr-10">
+            <h1 class="uppercase text-2xl font-bold mb-8 text-center">
+              HTML Forms
+            </h1>
+            <p class="text-justify">Content for HTML forms goes here.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
